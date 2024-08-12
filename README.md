@@ -12,12 +12,12 @@ convert images for cronus Zen (.gpc) format
 7. run app -> py img_to_gpc.py
 8.  ENJOY 
 
-on linux openCV and PyQt5 works bad together sry( 
+_on linux openCV and PyQt5 works bad together sry( _
 
-![image](https://github.com/user-attachments/assets/42aa41e7-a950-4ff4-8197-78cab7180605)
-
-**Recomendations: 
+**Recomendations**: 
 move the _Black border_ slider until you see your image
 Use _Canny_, if you need more details 
 Render picrure with _Optimization_
 you can _copy_ .gpc code from app or use file _myScript.gpc_ to see a resault.
+
+![image](https://github.com/user-attachments/assets/42aa41e7-a950-4ff4-8197-78cab7180605)
