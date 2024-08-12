@@ -7,8 +7,8 @@ def make_picture(picture:str,x_main:int,y_main:int,black_border:int,invColour:bo
     img=cv2.resize(img,(x_main,y_main))
     
     example_print=np.zeros((y_main,x_main))
-    if(canny):example_print = cv2.Canny(img,tLower,tUpper)
-    
+    if(canny):img = cv2.Canny(img,tLower,tUpper)
+
     white_pixel = 0
 
     for y,line in enumerate(img):
