@@ -6,10 +6,10 @@ convert images for cronus Zen (.gpc) format
 1. dowload python LOL _(py 3.12 would be good)_
 2. make a folder
 3. download my repo in this folder
-4. make venv in this folder  ->  py -m venv img2Zen
-5. activate venv -> img2Zen\Scripts\activate
-6. download req -> pip install -r requirements.txt
-7. run app -> py img_to_gpc.py
+4. make venv in this folder ```py -m venv img2Zen```
+5. activate venv  ```img2Zen\Scripts\activate```
+6. download req ```pip install -r requirements.txt ```
+7. run app ```py img_to_gpc.py```
 8.  ENJOY 
 
 _on linux openCV and PyQt5 works bad together sry( _
