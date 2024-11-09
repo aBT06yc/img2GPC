@@ -8,7 +8,7 @@ convert images for cronus Zen (.gpc) format
    https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe
    _(dont forget add py to system PATH)_
 
-2. make a folder, for example _my_script_ **(NAME IT ON ONLY ENGLISH)** 
+2. make a folder, for example _my_script_ **(NAME IT ON ONLY ON ENGLISH)** 
 
 3. download my repo in this folder
 
