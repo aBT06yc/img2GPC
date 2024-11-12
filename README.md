@@ -1,6 +1,8 @@
 # **img to GPC (cronus Zen)**
 convert images for cronus Zen (.gpc) format
 
+![image](https://github.com/user-attachments/assets/45d94d79-3285-430a-936a-71540e226ae7)
+
 **How to use** (windows)
 
 1. dowload python LOL _(py 3.12 would be good)_ 
