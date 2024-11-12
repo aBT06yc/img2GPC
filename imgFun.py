@@ -30,15 +30,18 @@ def make_picture(picture:str,x_main:int,y_main:int,black_border:int,invColour:bo
 
 def make_gpc(x_main:int,y_main:int,colour:str,black_border:int,optimization:bool):
 
+    example_print = cv2.imread('example.jpg',cv2.IMREAD_GRAYSCALE)
+
     if(colour == "White"): colour = 1
-    else: colour = 0
+    else:
+        example_print = 255 - example_print
+        colour = 0
     #preparing the file
     file= open("myScript.gpc", "w+")
     file.write("init{\nmyPrint()\n}\n\n"
                   +"function myPrint(){\n"
                   +f"cls_oled({1 - colour})\n")
     #+1 from right
-    example_print = cv2.imread('example.jpg',cv2.IMREAD_GRAYSCALE)
     new_column = np.full((y_main, 1), 0 if colour == 0 else 0)
     example_print = np.hstack((example_print, new_column))
 

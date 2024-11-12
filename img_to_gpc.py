@@ -63,6 +63,7 @@ class MainWindow(QMainWindow):
             
         
     def makeGPC(self):
+
         colour = self.colourBox.currentText()
         x = int(self.xBox.text())
         y = int(self.yBox.text()) 
