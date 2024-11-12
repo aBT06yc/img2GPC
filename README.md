@@ -45,6 +45,8 @@ convert images for cronus Zen (.gpc) format
 
 ![image](https://github.com/user-attachments/assets/aebdce55-7527-427a-80bf-3bb7e9fc422d)
 
+![image](https://github.com/user-attachments/assets/3bf79909-e904-4d75-aa2b-0c3ee966f4cf)
+
 
 _on linux openCV and PyQt5 works bad together sry( _
 
